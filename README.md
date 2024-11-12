@@ -18,11 +18,11 @@ This Password Validator action is designed for use in Betty Blocks applications.
 Below are the options available in this action's configuration:
 
 - **Password**: (String) The password to validate.
-- **minLength**: (Number) Minimum password length (default: `1`).
-- **maxLength**: (Number) Maximum password length (default: `18`).
-- **specialCharacter**: (Boolean) Requires special characters if `true` (default: `false`).
-- **upperCase**: (Boolean) Requires uppercase letters if `true` (default: `false`).
-- **lowerCase**: (Boolean) Requires lowercase letters if `true` (default: `false`).
-- **customRegex**: (String or Regex) An optional custom regex to validate the password (default: `""`).
+- **Minimum Length**: (Number) Minimum password length (default: `1`).
+- **Maximum Length**: (Number) Maximum password length (default: `18`).
+- **Special Characters**: (Boolean) Requires special characters if checked. 
+- **Uppercase**: (Boolean) Requires uppercase letters if checked.
+- **Lowercase**: (Boolean) Requires lowercase letters if checked.
+- **Custome Regex**: (Regex) An optional custom regex to validate the password.
 
 
