@@ -1,4 +1,4 @@
-# Password Validator - Betty Blocks Action
+# Password Validator
 
 ## Description
 
