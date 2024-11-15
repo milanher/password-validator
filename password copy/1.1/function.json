@@ -1,0 +1,95 @@
+{
+  "description": "This password validator function allows you to validate passwords based on various criteria such as length, the presence of special characters, uppercase and lowercase letters, and a custom regular expression. It returns a Boolean",
+  "label": "Password Validater",
+  "category": "Misc",
+  "icon": {
+    "name": "ConditionIcon",
+    "color": "Orange"
+  },
+  "options": [
+    {
+      "name": "Password",
+      "label": "Password",
+      "meta": {
+        "type": "Text",
+        "default": "password123"
+      }
+    },
+    {
+      "name": "minLength",
+      "label": "Minimum characters",
+      "meta": {
+        "type": "Number",
+        "default": 1
+      }
+    },
+    {
+      "name": "maxLength",
+      "label": "Maximum characters",
+      "meta": {
+        "type": "Number",
+        "default": 18
+      }
+    },
+    {
+      "name": "specialCharacter",
+      "label": "Special Characters",
+      "meta": {
+        "type": "Boolean",
+        "default": false
+      }
+    },
+    {
+      "name": "SpecifiedChar",
+      "label": "Specify your Special Characters",
+      "meta": {
+        "type": "Text",
+        "default": ""
+      }
+    },
+    {
+      "name": "upperCase",
+      "label": "Uppercase",
+      "meta": {
+        "type": "Boolean",
+        "default": false
+      }
+    },
+    {
+      "name": "lowerCase",
+      "label": "Lowercase",
+      "meta": {
+        "type": "Boolean",
+        "default": false
+      }
+    },
+    {
+      "name": "digits",
+      "label": "Digits",
+      "meta": {
+        "type": "Boolean",
+        "default": false
+      }
+    },
+    {
+      "advanced": true,
+      "name": "customRegex",
+      "label": "Custom Regex",
+      "meta": {
+        "type": "Text",
+        "default": ""
+      }
+    },
+    {
+      "name": "result",
+      "label": "Result",
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Boolean"
+        }
+      }
+    }
+  ],
+  "yields": "NONE"
+}
