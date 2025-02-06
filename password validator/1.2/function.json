@@ -1,6 +1,6 @@
 {
   "description": "This password validator function allows you to validate passwords based on various criteria such as length, the presence of special characters, uppercase and lowercase letters, and a custom regular expression. It returns a Boolean",
-  "label": "Password Validater",
+  "label": "Password Validator",
   "category": "Misc",
   "icon": {
     "name": "ConditionIcon",
