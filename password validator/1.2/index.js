@@ -1,5 +1,6 @@
 const password = async ({ Password, digits, minLength, maxLength, specialCharacter, upperCase, lowerCase, SpecifiedChar, customRegex }) => {
     const checkPassword = (password) => {
+        if(!password) throw new Error("Unable to validate password! No password given");
         isValid = true
         if (minLength || maxLength) {
             const maxlengthvalid = password.length <= maxLength ? true : false
